@@ -4,33 +4,36 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
+        <script src="index.js" type="module"> </script>
+        </head>
+
+
   <body>
     <div id="root">
-      <h1>Seja um Sherlock Holmes!</h1>
+         <h1>Seja um Sherlock Holmes!</h1>
     </div>
     <img src="./Img/sherlock.jpeg" height="250" width="500">
   <div id="cabecalho">
            <h2>E nunca mais se preocupe com a segurança de suas senhas</h2>
     </div>
  
+
+
   <div id="corpo">
     <h3> Escreva abaixo algo que você nunca esqueceria, e escolha o deslocamento:</h3>
     <span>
-    <input type="text" name="palavra" size="10" maxlength="5"/>
+    <input type="text" name="index" size="10" maxlength="5" id="palavra"/>
     <br>
-    <span id="label">Deslocamento: </span>
-    <input type='number' name='shift' value='3' min='1' max='26'>
-                  <button onclick="calculate()" id="big">Encriptar</button>
+    <span id="deslocamento">Deslocamento: </span>
+    <input type='number' name='desloc' value='3' min='1' max='26' id="deslocamento">
+          <button type="submit" id="submit">Encriptar</button>
 
           
     <h3>Está é sua nova senha:</h3>
-    <input type="text" name="resposta" size="10" maxlength="5"/>
+    <input type="text" name="resposta" size="10" maxlength="5" id="resposta"/>
   </span>
     <h3><p style="border: dashed;" >Use-a com muito cuidado</p></h3>
   </div>
 
-
-    <script src="index.js" type="module"></script>
   </body>
 </html>

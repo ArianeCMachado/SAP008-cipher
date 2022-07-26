@@ -30,6 +30,11 @@ h3{
         background-color: rgba(0, 38, 255, 0.582);
         border-color: rgb(38, 204, 216);
     }
-    #big {
+    #submit {
         width: 100px;
     }
+
+    input {
+             font: normal size 100px Arial;
+    }
+
