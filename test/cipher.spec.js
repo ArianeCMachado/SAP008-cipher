@@ -30,12 +30,8 @@ describe('cipher', () => {
     });
 
     // Hacker edition
-    //
-    // [Español]
-    // Si decides agregar soporte para minúsculas descomenta el test a
-    // continuación.
-    //
-    // [Português]
+ 
+        // [Português]
     // Se quiser adicionar testes para letras minúsculas, descomente o teste
     // abaixo.
     //
@@ -44,10 +40,6 @@ describe('cipher', () => {
     // });
 
     // Hacker edition
-    //
-    // [Español]
-    // Si decides implementar soporte para caracteres no alfabéticos descomenta
-    // el test a continuación.
     //
     // [Português]
     // Se quiser adicionar testes para caracteres não alfabéticos, descomente o
@@ -77,11 +69,6 @@ describe('cipher', () => {
 
     //
     // Hacker edition
-    //
-    // [Español]
-    // Si decides agregar soporte para minúsculas descomenta el test a
-    // continuación.
-    //
     // [Português]
     // Se quiser adicionar testes para letras minúsculas, descomente o teste
     // abaixo.
@@ -92,9 +79,6 @@ describe('cipher', () => {
 
     // Hacker edition
     //
-    // [Español]
-    // Si decides implementar soporte para caracteres no alfabéticos descomenta
-    // el test a continuación.
     //
     // [Português]
     // Se quiser adicionar testes para caracteres não alfabéticos, descomente o
