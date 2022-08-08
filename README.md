@@ -22,6 +22,7 @@ E ao apertar o botão, terá sua palavra inicial.
 ### 🔧 Passo a passo 
 
 Primeiro, foi idealizado como seria o prototipo de baixa fidelidade.
+<img src="./Img/prototipo.jpeg">
 Após, escrito o HTML.
 E o cipher.js, onde foi feita a lógica para funcionar, com os calculos adequados.
 
@@ -42,6 +43,12 @@ E assim colocado a mensagem para caso o usuário não escreva nada
 ```
    if (palavra1 ===""){
         window.alert("Escreva uma palavra")
+```
+E por final o calculo para não letras
+
+```
+(code >= 32 && code <= 64) {
+atual = String.fromCharCode(code)
 ```
 
 

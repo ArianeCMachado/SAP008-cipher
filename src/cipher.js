@@ -22,7 +22,6 @@ const encode = function (deslocamento, palavra) {
     return output;
 };
 
-
 const decode = function (deslocamento1, palavra1) {
 
     if (typeof palavra1 != "string" || palavra1 == "number")
