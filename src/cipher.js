@@ -13,6 +13,10 @@ const encode = function (deslocamento, palavra) {
             else if (code >= 97 && code <= 122) {
             atual = String.fromCharCode(((code - 97 + deslocamento) % 26) + 97);
             }
+            else if (code >= 32 && code <= 64) {
+                atual = String.fromCharCode(code);
+                }
+
         output += atual;
     }
     return output;
@@ -34,6 +38,9 @@ const decode = function (deslocamento1, palavra1) {
         
                else if (code1 >= 97 && code1 <= 122) {
                atual1 = String.fromCharCode(((code1 - 122 - deslocamento1) % 26) + 122);
+                }
+                else if (code1 >= 32 && code1 <= 64) {
+                atual1 = String.fromCharCode(code1);
                 }
                            
         output1 += atual1;
