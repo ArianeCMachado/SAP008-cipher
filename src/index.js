@@ -10,7 +10,9 @@ function clickCifrar() {
     if (palavra ===""){
         window.alert("Escreva uma palavra")
     }
+ 
 }
+
 
 document.getElementById("submit1").addEventListener("click",clickCifrar1)
 
@@ -21,9 +23,5 @@ function clickCifrar1() {
     document.getElementById("resposta1").value = cifra1;
     if (palavra1 ===""){
         window.alert("Escreva uma palavra")
-    }
 }
-
-
-
-
+}
