@@ -71,11 +71,6 @@ Projeto realizado por Ariane Costa Machado. Com grande ajuda de todo o pessoal d
 _________________________________________________________________________________________________________________________
 
 
-
-
-
-deve explicar como "deployar", instalar e executar a aplicação,  e as decisões que foram tomadas.
-
 # Cifra de César
 
 ## Índice
