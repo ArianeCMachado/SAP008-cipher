@@ -66,7 +66,7 @@ Os testes verificam se o Offset para maisculas e minusculas estão funcionando.
 
 ## ✒️ Autores
 
-Projeto realizado por Ariane Costa Machado. Com grande ajuda de todo o pessoal da Laboratoria, mas especialmente: Palomita, Gabriel, Thali e Moni. <3
+Projeto realizado por Ariane Costa Machado. Com grande ajuda de todo o pessoal da Laboratoria, mas especialmente: Palomita, Gabriel, Thali, Gui e Moni. <3
 
 
 _________________________________________________________________________________________________________________________
